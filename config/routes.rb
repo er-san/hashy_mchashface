@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+    get '/', to: redirect('/search')
+    post '/search' => 'hashed_passwords#search'
+    get '/search' => 'hashed_passwords#search'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
