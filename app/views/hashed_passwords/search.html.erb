@@ -1,0 +1,6 @@
+<%= form_for :hashed_password do |f| %>
+  Enter password: <%= f.text_field :password %><br />
+  <%= f.submit "Check for password match" %>
+<% end %>
+
+<%= flash[:notice] if flash[:notice] %>
