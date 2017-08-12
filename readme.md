@@ -30,6 +30,7 @@ If you dont feel running the rails server is necessary. Feel free skip that step
 
 ```
 (using the same naming convention as rails in case you wish to run the server)
-createdb hashy_mchashface_development;
+createdb hashy_mchashface_development
 psql hashy_mchashface_development
-SELECT * FROM hashed_passwords WHERE hash_value = 'your_sha1_hashed_password';```
+SELECT * FROM hashed_passwords WHERE hash_value = 'your_sha1_hashed_password';
+\q```
