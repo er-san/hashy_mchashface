@@ -29,8 +29,7 @@ Alternative approach:
 If you dont feel running the rails server is necessary. Feel free skip that step and utilize querying in postgres. You will need to convert your password from a string to SHA1 hash(make sure its **__upper case__** for all characters!) and then query to the database. Follow all steps until starting the rails server and then skip to the commands below:
 
 ```
-psql postgres
-CREATE DATABASE hashy_mchashface_development;
-\q
+(using the same naming convention as rails in case you wish to run the server)
+createdb hashy_mchashface_development;
 psql hashy_mchashface_development
 SELECT * FROM hashed_passwords WHERE hash_value = 'your_sha1_hashed_password';```
