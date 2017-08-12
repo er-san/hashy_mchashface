@@ -33,4 +33,5 @@ If you dont feel running the rails server is necessary. Feel free skip that step
 createdb hashy_mchashface_development
 psql hashy_mchashface_development
 SELECT * FROM hashed_passwords WHERE hash_value = 'your_sha1_hashed_password';
-\q```
+\q
+```
