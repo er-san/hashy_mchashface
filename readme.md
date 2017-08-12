@@ -14,6 +14,8 @@ In your browser go to: localhost:3000
 Hunt for your password without it being transmitted over the internet!
 
 
+==================
+
 Alternative approach:
 If you dont feel running the rails server is necessary. Feel free skip that step and utilize querying in postgres. You will need to convert your password from a string to SHA1 hash and then query to the database.
 
