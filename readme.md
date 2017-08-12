@@ -1,6 +1,10 @@
 ### Mac OS
+Follow steps are input into the terminal command line.
+
+Pull down this repository:
 ```git clone git@github.com:er-san/hashy_mchashface && cd hashy_mchashface```
 
+Create empty database:
 ```rake db:create```
 
 download the postgres sql dump:
@@ -12,12 +16,12 @@ seed database with the bajillion passwords:
 start rails server:
 ```rails s```
 
-In your browser go to: localhost:3000
+In your browser URL path:
+```localhost:3000```
 
 Hunt for your password without it being transmitted over the internet!
 
-
-==================
+========================================================================
 
 Alternative approach:
 If you dont feel running the rails server is necessary. Feel free skip that step and utilize querying in postgres. You will need to convert your password from a string to SHA1 hash(make sure its upper case for all characters!) and then query to the database. Follow all steps until starting the rails server and then skip to the commands below:
