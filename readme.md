@@ -1,4 +1,4 @@
-#Mac OS
+### Mac OS
 ```git clone git@github.com:er-san/hashy_mchashface && cd hashy_mchashface```
 
 ```rake db:create```
